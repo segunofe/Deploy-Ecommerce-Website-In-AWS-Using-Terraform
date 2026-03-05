@@ -1,4 +1,4 @@
-**In the project, I deployed an E-Commerce website in AWS in a fully automated way using Terraform **
+#In the project, I deployed an E-Commerce website in AWS in a fully automated way using Terraform 
 
 Website deployed 
 <img width="1784" height="887" alt="image" src="https://github.com/user-attachments/assets/8e7105c7-f3b4-4b03-b0bf-11eee103138f" />
@@ -6,7 +6,6 @@ Website deployed
 
 **I created 39 cloud infrastructures using Terraform**
 <img width="975" height="1049" alt="image" src="https://github.com/user-attachments/assets/ced6b755-fc8d-40b1-a8a7-7f558b9eb810" />
-<img width="1366" height="398" alt="image" src="https://github.com/user-attachments/assets/13ea27b9-cb22-49d8-a4ae-412e0f57fce4" />
 
 
 **Step 1: Clone repo to local machine**
