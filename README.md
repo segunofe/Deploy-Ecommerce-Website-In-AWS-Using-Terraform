@@ -115,7 +115,6 @@ Note: Ensure you create all resources in the same region
 
 12. Secured Website 
 <img width="1872" height="897" alt="image" src="https://github.com/user-attachments/assets/557d9f0f-d73e-4456-b38c-b1fa14e149cf" />
-<img width="1890" height="1088" alt="image" src="https://github.com/user-attachments/assets/2745754d-2fc8-4fea-b512-5fabb785f7ea" />
 
 
 
