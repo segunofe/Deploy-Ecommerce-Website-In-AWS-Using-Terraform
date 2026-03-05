@@ -2,6 +2,8 @@
 
 ### Website deployed ###
 <img width="1784" height="887" alt="image" src="https://github.com/user-attachments/assets/8e7105c7-f3b4-4b03-b0bf-11eee103138f" />
+<img width="1904" height="971" alt="image" src="https://github.com/user-attachments/assets/a9fb5356-d38a-4f6d-a303-648fac69bc3e" />
+
 
 <img width="1656" height="942" alt="image" src="https://github.com/user-attachments/assets/f74ace09-f58e-49ea-8a64-982d2fe0fd20" />
 
