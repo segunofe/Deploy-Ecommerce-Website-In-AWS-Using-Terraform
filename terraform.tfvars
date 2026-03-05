@@ -47,7 +47,7 @@ publicly_accessible          = false
 # ──────────────────────────────────────────────
 # EC2
 # ──────────────────────────────────────────────
-amazon_linux_ami_id = "ami-09256c524fab91d36"
+amazon_linux_ami_id = "copy_ami-id_from_AWS_Console"
 ec2_instance_type   = "t3.medium"
 flyway_version      = "11.19.1"
 sql_script_s3_uri   = "s3://dev-so-app-webfiles/project-3-assets/V1__nest.sql"
@@ -62,7 +62,7 @@ health_check_path = "/index.php"
 
 
 # SNS
-operator_email = "ofesegunayodeji@gmail.com"
+operator_email = "enter_your_email"
 
 
 
