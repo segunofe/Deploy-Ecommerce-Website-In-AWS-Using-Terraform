@@ -1,0 +1,11 @@
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform lock file (optional - some teams commit this)
+ .terraform.lock.hcl
+ .terraform.lock*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
