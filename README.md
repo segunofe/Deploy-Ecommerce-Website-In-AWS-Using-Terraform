@@ -1,4 +1,4 @@
-# In the project, I deployed an E-Commerce website in AWS in an automated way using Terraform #
+# I deployed an E-Commerce website in AWS in an automated way using Terraform #
 
 ### Website deployed ###
 <img width="1890" height="1088" alt="Screenshot 2026-03-05 013347" src="https://github.com/user-attachments/assets/a66a5c0b-61d8-4ac7-856d-c0b14a25ef11" />
