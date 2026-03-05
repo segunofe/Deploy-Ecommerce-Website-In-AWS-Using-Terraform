@@ -7,6 +7,12 @@
 
 <img width="1656" height="942" alt="image" src="https://github.com/user-attachments/assets/f74ace09-f58e-49ea-8a64-982d2fe0fd20" />
 
+##Solution Architecture##
+<img width="1080" height="1920" alt="Architecture" src="https://github.com/user-attachments/assets/6e614440-990c-4454-9c37-98894c4eb9b4" />
+
+###NOTE###: I used Namecheap as my DNS hosting provider instead of Route 53, since I had problems creating a domain name with my AWS account. 
+
+
 ## I created 39 cloud infrastructures using Terraform ##
 <img width="975" height="1049" alt="image" src="https://github.com/user-attachments/assets/ced6b755-fc8d-40b1-a8a7-7f558b9eb810" />
 
@@ -114,8 +120,11 @@ Note: Ensure you create all resources in the same region
 
 **Challenge Encountered**
 1. I observed that without connecting the load balancer dns to a custom domain name, the site did not fully come up
+   Solution: Added another listener (HTTPS:443) and enable SSL/TLS certificate to secure the website**
 <img width="1487" height="1053" alt="image" src="https://github.com/user-attachments/assets/59c6d8fa-692a-4e61-bb05-7206964b474e" />
 
-This was when it was accessed from the load balancer dns and the second listener on HTTPS:443 has not been configured. 
+How it looks before the second listener on HTTPS:443 was configured.
+2. I had problem creating a domain name using Route 53
+   Solution: I contacted AWS support but to no avail, so I used an existing domain I previously purchased from Namecheap.  
 
 
