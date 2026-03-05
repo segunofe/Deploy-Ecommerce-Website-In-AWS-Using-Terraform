@@ -105,5 +105,10 @@ Note: Ensure you create all resources in the same region
 <img width="1872" height="897" alt="image" src="https://github.com/user-attachments/assets/557d9f0f-d73e-4456-b38c-b1fa14e149cf" />
 
 
+**Challenge Encountered**
+1. I observed that without connecting the load balancer dns to a custom domain name, the site did not fully come up
+<img width="1487" height="1053" alt="image" src="https://github.com/user-attachments/assets/59c6d8fa-692a-4e61-bb05-7206964b474e" />
+
+This was when it was accessed from the load balancer dns and the second listener on HTTPS:443 has not been configured. 
 
 
