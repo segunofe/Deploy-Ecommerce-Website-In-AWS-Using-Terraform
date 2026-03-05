@@ -1,6 +1,6 @@
-### In the project, I deployed an E-Commerce website in AWS in a fully automated way using Terraform ###
+## In the project, I deployed an E-Commerce website in AWS in a fully automated way using Terraform ##
 
-## Website deployed ## 
+### Website deployed ###
 <img width="1784" height="887" alt="image" src="https://github.com/user-attachments/assets/8e7105c7-f3b4-4b03-b0bf-11eee103138f" />
 <img width="1656" height="942" alt="image" src="https://github.com/user-attachments/assets/f74ace09-f58e-49ea-8a64-982d2fe0fd20" />
 
