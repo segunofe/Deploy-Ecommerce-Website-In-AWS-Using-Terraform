@@ -1,4 +1,4 @@
-#In the project, I deployed an E-Commerce website in AWS in a fully automated way using Terraform 
+**In the project, I deployed an E-Commerce website in AWS in a fully automated way using Terraform**
 
 Website deployed 
 <img width="1784" height="887" alt="image" src="https://github.com/user-attachments/assets/8e7105c7-f3b4-4b03-b0bf-11eee103138f" />
@@ -12,12 +12,12 @@ Website deployed
 
 ```git clone https://github.com/segunofe/Deploy-Ecommerce-Website-In-AWS-Using-Terraform.git```
 
-**Step 2: Grant local machine access to create resources in AWS **
+**Step 2: Grant local machine access to create resources in AWS**
 
 Run "aws configure" and provide Access and Secret Keys
 <img width="1016" height="269" alt="image" src="https://github.com/user-attachments/assets/efd622ff-06da-4594-8759-e1056315c5ca" />
 
-**Step 3: Create S3 bucket and upload application files **
+**Step 3: Create S3 bucket and upload application files**
 
 Precisely, nest.zip, AppServiceProvider.php and V1_nest.sql files found in "app" folder on this repo
 
@@ -58,7 +58,7 @@ terraform plan
 terraform apply  
 
 
-**Step 8: Access the website via the load balancer dns, outputted on the Terminal **
+**Step 8: Access the website via the load balancer dns, outputted on the Terminal**
 
 Note: Ensure you create all resources in the same region 
 
