@@ -118,7 +118,7 @@ Note: Ensure you create all resources in the same region
 
 
 
-**Challenge Encountered**
+## Challenges Encountered ##
 1. I observed that without connecting the load balancer dns to a custom domain name, the site did not fully come up
    Solution: Added another listener (HTTPS:443) and enable SSL/TLS certificate to secure the website**
 <img width="1487" height="1053" alt="image" src="https://github.com/user-attachments/assets/59c6d8fa-692a-4e61-bb05-7206964b474e" />
