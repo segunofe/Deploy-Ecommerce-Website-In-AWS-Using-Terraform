@@ -73,6 +73,8 @@ Note: Ensure you create all resources in the same region
 **ScreenShots**
 1. VPC Resources
 <img width="1858" height="582" alt="image" src="https://github.com/user-attachments/assets/96dbae7c-a477-4644-af71-673233de4cb1" />
+<img width="1889" height="800" alt="image" src="https://github.com/user-attachments/assets/5cef967e-b38d-43f4-9ded-1cb906d7c87b" />
+
 2. Security Groups
 <img width="1785" height="364" alt="image" src="https://github.com/user-attachments/assets/65f7efe6-ef7b-4240-82ed-5f331fe5cd55" />
 3. Endpoint
