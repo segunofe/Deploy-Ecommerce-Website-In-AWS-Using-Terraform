@@ -60,6 +60,14 @@ terraform apply
 
 **Step 8: Access the website via the load balancer dns, outputted on the Terminal**
 
+**Step 9: Connect load balanacer dns to a custom domain name on Namecheap**
+<img width="1149" height="298" alt="image" src="https://github.com/user-attachments/assets/4ab06227-0228-4bc2-9dae-50c9cd7a97ee" />
+
+
+**Step 10: Added another listener (HTTPS:443) and enable SSL/TLS certificate to secure the website**
+
+<img width="1041" height="411" alt="image" src="https://github.com/user-attachments/assets/c5756df7-c69b-4c89-b23a-e191814c6a46" />
+
 Note: Ensure you create all resources in the same region 
 
 **ScreenShots**
