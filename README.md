@@ -8,7 +8,7 @@
 <img width="975" height="1049" alt="image" src="https://github.com/user-attachments/assets/ced6b755-fc8d-40b1-a8a7-7f558b9eb810" />
 
 
-**Step 1: Clone repo to local machine**
+# Step 1: Clone repo to local machine #
 
 ```git clone https://github.com/segunofe/Deploy-Ecommerce-Website-In-AWS-Using-Terraform.git```
 
