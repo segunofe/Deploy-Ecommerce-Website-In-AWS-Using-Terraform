@@ -7,10 +7,10 @@
 
 <img width="1656" height="942" alt="image" src="https://github.com/user-attachments/assets/f74ace09-f58e-49ea-8a64-982d2fe0fd20" />
 
-##Solution Architecture##
+## Solution Architecture ##
 <img width="1080" height="1920" alt="Architecture" src="https://github.com/user-attachments/assets/6e614440-990c-4454-9c37-98894c4eb9b4" />
 
-###NOTE###: I used Namecheap as my DNS hosting provider instead of Route 53, since I had problems creating a domain name with my AWS account. 
+### NOTE ###: I used Namecheap as my DNS hosting provider instead of Route 53, since I had problems creating a domain name with my AWS account. 
 
 
 ## I created 39 cloud infrastructures using Terraform ##
