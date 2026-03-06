@@ -122,7 +122,7 @@ Note: Ensure you create all resources in the same region
 ### 1. I observed that without connecting the load balancer dns to a custom domain name, the site did not fully come up.
    #### Solution: Added another listener (HTTPS:443) and enable SSL/TLS certificate to secure the website
 <img width="1487" height="1053" alt="image" src="https://github.com/user-attachments/assets/59c6d8fa-692a-4e61-bb05-7206964b474e" />
-How it looks before the second listener on HTTPS:443 was configured.
+How it looked before configuring the second listener on HTTPS:443 to secure the website. 
 
 ### 2. I had issues creating a domain name using Route 53
    #### Solution: I contacted AWS support but to no avail, so I used an existing domain I previously purchased from Namecheap.  
