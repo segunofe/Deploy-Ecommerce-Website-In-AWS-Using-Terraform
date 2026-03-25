@@ -139,6 +139,18 @@ variable "sql_script_s3_uri" {
 }
 
 
+# ACM
+variable "domain_name" {
+  description = "Domain name for ACM certificate"
+  type        = string
+}
+
+
+# variable "alternative_names" {
+#   description = "Alternative domain names (SANs)"
+#   type        = string
+# }
+
 
 
 # ALB 
@@ -154,14 +166,18 @@ variable "health_check_path" {
 }
 
 
-
-
 # SNS 
 variable "operator_email" {
   description = "Email for SNS notifications"
   type        = string
 }
 
+
+# # Route 53
+# variable "record_name" {
+#   description = "Route 53 record name"
+#   type        = string
+# }
 
 
 # ASG
