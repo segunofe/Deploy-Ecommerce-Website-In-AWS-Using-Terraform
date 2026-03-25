@@ -12,19 +12,19 @@ data "aws_acm_certificate" "existing" {
 # Create a new certificate 
 # ACM certificate
 # resource "aws_acm_certificate" "acm_certificate" {
-#   domain_name               = #
-#   subject_alternative_names = #
-#   validation_method         = #
+#   domain_name               = var.domain_name
+#   subject_alternative_names = var.alternative_names
+#   validation_method         = "DNS"
 
 #   lifecycle {
-#     create_before_destroy = #
+#     create_before_destroy = true
 #   }
 # }
 
 # # Route 53 hosted zone
 # data "aws_route53_zone" "hosted_zone" {
-#   name         = #
-#   private_zone = #
+#   name         = var.domain_name
+#   private_zone = false
 # }
 
 # # DNS records for ACM validation
@@ -37,16 +37,16 @@ data "aws_acm_certificate" "existing" {
 #     }
 #   }
 
-#   allow_overwrite = #
-#   name            = #
-#   records         = #
-#   ttl             = #
-#   type            = #
-#   zone_id         = #
+#   allow_overwrite = true
+#   name            = each.value.name
+#   records         = [each.value.record]
+#   ttl             = 60
+#   type            = each.value.type
+#   zone_id         = data.aws_route53_zone.hosted_zone.zone_id
 # }
 
 # # Validate ACM certificate
 # resource "aws_acm_certificate_validation" "acm_certificate_validation" {
-#   certificate_arn         = #
-#   validation_record_fqdns = #
+#   certificate_arn         = aws_acm_certificate.acm_certificate.arn
+#   validation_record_fqdns = [for record in aws_route53_record.route53_record : record.fqdn]
 # }
