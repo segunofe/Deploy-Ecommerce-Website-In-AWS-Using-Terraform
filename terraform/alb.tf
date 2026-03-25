@@ -32,14 +32,52 @@ resource "aws_lb_target_group" "alb_target_group" {
   }
 }
 
+
 # HTTP listener - redirects to HTTPS
 resource "aws_lb_listener" "alb_http_listener" {
   load_balancer_arn = aws_lb.application_load_balancer.arn
-  port              = 80  
+  port              = 80
   protocol          = "HTTP"
+
+  default_action {
+    type = "redirect"
+
+    redirect {
+      port        = 443
+      protocol    = "HTTPS"
+      status_code = "HTTP_301"
+    }
+  }
+}
+
+# HTTPS listener - forwards to target group
+resource "aws_lb_listener" "alb_https_listener" {
+  load_balancer_arn = aws_lb.application_load_balancer.arn
+  port              = 443
+  protocol          = "HTTPS"
+  ssl_policy        = "ELBSecurityPolicy-2016-08"
+  certificate_arn   = data.aws_acm_certificate.existing.arn
 
   default_action {
     type             = "forward"
     target_group_arn = aws_lb_target_group.alb_target_group.arn
   }
 }
+
+
+# # HTTP listener - redirects to HTTPS
+# resource "aws_lb_listener" "alb_http_listener" {
+#   load_balancer_arn = aws_lb.application_load_balancer.arn
+#   port              = 80  
+#   protocol          = "HTTP"
+
+#   default_action {
+#     type             = "forward"
+#     target_group_arn = aws_lb_target_group.alb_target_group.arn
+#   }
+# }
+
+
+
+
+
