@@ -96,7 +96,7 @@ Note: Ensure you create all resources in the same region
 5. Database
 <img width="1486" height="290" alt="image" src="https://github.com/user-attachments/assets/464a9427-9efb-4f60-b160-250a820851c5" />
 
-6. webserver and server for data migration 
+6. Webserver and server for data migration 
 <img width="1893" height="335" alt="image" src="https://github.com/user-attachments/assets/96751484-1eae-4112-9138-1b62557c2809" />
 
 7. Target Group
