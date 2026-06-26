@@ -1,4 +1,4 @@
-# Launch template for Auto Scaling Group
+# Launch template for Auto Scaling Group.
 resource "aws_launch_template" "app_server_launch_template" {
   name                   = "${var.environment}-${var.project_name}-launch-template"
   image_id               = var.amazon_linux_ami_id
