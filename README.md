@@ -27,7 +27,7 @@
 Run "aws configure" and provide Access and Secret Keys
 <img width="1016" height="269" alt="image" src="https://github.com/user-attachments/assets/efd622ff-06da-4594-8759-e1056315c5ca" />
 
-**Step 3: Create S3 bucket and upload application files**
+**Step 3: Create S3 bucket and upload application files.**
 
 Precisely, nest.zip, AppServiceProvider.php and V1_nest.sql files found in "app" folder on this repo
 
