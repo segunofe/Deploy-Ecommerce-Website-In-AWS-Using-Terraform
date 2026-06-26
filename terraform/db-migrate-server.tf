@@ -1,4 +1,4 @@
-# EC2 instance for database migration
+# EC2 instance for database migration.
 resource "aws_instance" "data_migrate_ec2" {
   ami                    = var.amazon_linux_ami_id
   instance_type          = var.ec2_instance_type
